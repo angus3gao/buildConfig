@@ -2,8 +2,8 @@
 
 #sh install_git_before.sh
 
-tar -zxf git-1.7.6.tar.gz
-cd git-1.7.6
+tar -zxf git-2.6.3.tar.gz
+cd git-2.6.3
 make prefix=/usr/local all
 sudo make prefix=/usr/local install
 
