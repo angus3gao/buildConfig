@@ -17,7 +17,7 @@ for hostname in `cat $list`
 do sleep 1
 {
 echo $hostname
-ssh -p36000 root@"${hostname}" "${command}"
+ssh -p20 root@"${hostname}" "${command}"
 }&
 done
 wait

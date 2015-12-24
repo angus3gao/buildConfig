@@ -14,7 +14,7 @@ mkdir -p /usr/local/dbback/${version}back
 cd /usr/local/dbback/${version}back
 tar -zcvf  gameserver.tar.gz /usr/local/jhserver/gameserver/
 echo "======================================程序打包完毕=======================================";
-gameid=$(cat /usr/local/jhserver/gameserver/conf/serverparam.properties|sed -n '2p'|awk -F'=' '{print $2}')
+gameid=$(cat /usr/local/server/conf/serverparam.properties|sed -n '2p'|awk -F'=' '{print $2}')
 filepath=/usr/local/zjupdategame${version}/webapps.zip
 if [ ! -f "$filepath" ]; then 
  echo `date +%F~%H:%M`" "${gameid}"服 没有更新服务器" >> /home/update.log

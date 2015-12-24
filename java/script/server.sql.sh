@@ -21,7 +21,7 @@ for hostname in `cat $list`
 do sleep 1
 {
 echo $hostname
-ssh -p36000 root@"${hostname}" "mysql -uroot  -e \"${sqlpath}\""
+ssh -p22 root@"${hostname}" "mysql -uroot  -e \"${sqlpath}\""
 }&
 done
 wait

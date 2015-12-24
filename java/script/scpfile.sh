@@ -27,7 +27,7 @@ for hostname in `cat /tmp/a.tmp`
 do sleep 1
 {
 echo "对IP=${hostname}的服务器操作"
-scp -P36000 -r ${filepath} root@${hostname}:${clientpath}
+scp -P22 -r ${filepath} root@${hostname}:${clientpath}
 }&
 done
 wait

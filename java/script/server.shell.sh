@@ -25,7 +25,7 @@ for hostname in `cat /tmp/a.tmp`
 do 
 {
 echo $hostname
-ssh -p36000 ${hostname} "${command}"
+ssh -p22 ${hostname} "${command}"
 }&
 done
 wait
