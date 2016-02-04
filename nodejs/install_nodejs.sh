@@ -6,11 +6,11 @@ if [ $(id -u) != "0" ]; then
 fi
 clear
 
-wget -c http://nodejs.org/dist/v0.10.29/node-v0.10.29.tar.gz
+wget -c http://nodejs.org/dist/v4.2.6/node-v4.2.6.tar.gz
 
-tar zxvf node-v0.10.29.tar.gz
+tar zxvf node-v4.2.6.tar.gz
 
-cd node-v0.10.29
+cd node-v4.2.6
 
 ./configure
 
