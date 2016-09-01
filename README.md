@@ -8,7 +8,8 @@
 ### linux环境安装
  - 配置主要是centOS7下写的, 可以不支持其他系统
  - 这部分主要包括 c、c++、git、svn 等相关的安装
- - [详细内容](evn/env.md)
+ - [详细内容](evn/)
+
 ### nodejs开发环境
  - nodejs linux下开发环境安装
  - mysql、redis数据安装
