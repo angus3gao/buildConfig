@@ -15,12 +15,5 @@
  - mysql、redis数据安装
  > 版本比较旧后续会添加不上
 
-### java开发相关
- - java 相关项目发布使用脚本、比较久没有使用价值。
-
-### php开发环境
- - 由已项目需要中间接收过一个php项目是收集写的一些脚本。 
- 由于时间比较短, 后面就没有使用。
-
 ### book
  - 收集免费学习资料（Freely available programming books）
